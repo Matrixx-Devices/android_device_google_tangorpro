@@ -32,6 +32,12 @@ MATRIXX_CHIPSET := GS201
 MATRIXX_BATTERY := 7020mAh
 MATRIXX_DISPLAY := 1600x2560
 
+# To include Gapps 
+WITH_GMS := true
+
+# To Build Pixel launcher
+TARGET_INCLUDE_NEXUS := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="tangorpro-user 15 AP4A.250105.002 12701944 release-keys" \
     BuildFingerprint=google/tangorpro/tangorpro:15/AP4A.250105.002/12701944:user/release-keys \
