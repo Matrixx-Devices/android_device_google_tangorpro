@@ -38,6 +38,9 @@ WITH_GMS := true
 # To Build Pixel launcher
 TARGET_INCLUDE_NEXUS := true
 
+# To support Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="tangorpro-user 15 AP4A.250105.002 12701944 release-keys" \
     BuildFingerprint=google/tangorpro/tangorpro:15/AP4A.250105.002/12701944:user/release-keys \
