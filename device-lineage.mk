@@ -22,6 +22,10 @@ PRODUCT_PACKAGES += \
     TitanSettingsProviderOverlay \
     TitanSysuiConfigOverlay
 
+
+# PixelParts
+-include packages/apps/PixelParts/device.mk
+
 # Build necessary packages for vendor
 
 # Codec2
