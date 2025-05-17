@@ -42,8 +42,8 @@ TARGET_INCLUDE_NEXUS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="tangorpro-user 15 AP4A.250205.002 12821496 release-keys" \
-    BuildFingerprint=google/tangorpro/tangorpro:15/AP4A.250205.002/12821496:user/release-keys \
+    BuildDesc="tangorpro-user 15 BP1A.250505.005 13277524 release-keys" \
+    BuildFingerprint=google/tangorpro/tangorpro:15/BP1A.250505.005/13277524:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
